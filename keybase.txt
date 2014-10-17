@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/waldyrious
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://waldirpimenta.com
+  * I am waldyrious (https://keybase.io/waldyrious) on keybase.
+  * I have a public key with fingerprint 0259 AB69 5C76 1474 B813  F3D0 983C BDC4 A57E 1723
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "0259ab695c761474b813f3d0983cbdc4a57e1723",
+            "host": "keybase.io",
+            "key_id": "983cbdc4a57e1723",
+            "uid": "0f5e1ea6669a6a7776e1d4831022cf00",
+            "username": "waldyrious"
+        },
+        "service": {
+            "hostname": "waldirpimenta.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1411495319,
+    "expire_in": 157680000,
+    "prev": "cb78d8804594ee47e30293f46066c6cea58e965b7db24c7820e0ae623181cfc8",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.0.5
+Comment: https://keybase.io/crypto
+
+yMHuAnicbZFdSBRRFMfXr8wtwRBC8CN3ihVKdO58z1paBAZCEZHVg7TN3Lmrs+nM
+7OzspojVgwQJfZioWRKC0moFFrZGUCqLkamhZUYpRkRCKRU+BGbkNiMFPXRfDvd/
+fud/zuEMJ8fZ7DHDX7c7P78ZzIwZG1oO2A47wq21mKhKNZirFjuJ1oJHVsqRrumy
+YmAuDCdoXhAZnoYsAyiWEjlAekgJ5zkSihKkBJpFgCVILBerUP1WhWkjCn6UJ6um
+Zn7csmSq/+EDawncQyOABIZheIERWJZlEJAojgQ4QUAPjlugH+mKUIVM+pRQKdXo
+shrwY3W5mKkHZYisqa3m/zCyrslVSDGEPKhWmRaarhoqVCvNdIVhaC6r2qjR1nAk
+uv8YuUVZkcz1zYIg0v2yqmAuYJLQkC1nQAFA8TQJ+FwMVWuyjtyyRdAsw+Hms9qg
+oGkJRZaTOA6naJ5CiGIRiRM86aEYnGEgA5FAc4hnaJGVRIKCLEfgCBcQQ5CAA9AD
+OcxazaeomIs2xxTKTUu/XK4IRkBHWF1kqCzeFmO3rUuItQ5osyel/D3rw6nEqFZ9
+wvkt4UrRy+qGp00gPdo1erwzVQMXyNXMkZk9SXOBpp2OzWnTeE5De0FbpC90tL5v
+kjj/fMdSz2xX6ujKzIP9OfeKL3cuzh4YhwVsy965ztCN2JJI/KzvA1s4AHvz94W8
+SZuw5pveQ2ebYNt82Jd+TfyRrBqfVO9oWvaKe/eGOPfH0Lvlbl/Z2NWFcz1OR+ul
+ulu3J48dLAnXr98ynR3smL/jKO5+3XHkbovOchPB5tKErNXHp4XSR722QXtLRk+K
+8T0j+mTblPq+f3GsaPzF/S+7vJVLzrdc45mZwrwoTBlobR989exn3ERB4q+FxotZ
+/fkbr2+VSyIjqZm/AeyrGeQ=
+=6DkQ
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/waldyrious
+
+==================================================================
