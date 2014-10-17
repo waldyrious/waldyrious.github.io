@@ -27,7 +27,7 @@ hr {
   border: 0;
   outline: none;
   height: 3px;
-  background: transparent url("../images/hr.png") center center repeat-x;
+  background: transparent url("../img/hr.png") center center repeat-x;
   margin: 0 0 20px;
 }
 
@@ -53,7 +53,7 @@ p, ul, ol, table, pre, dl {
 }
 
 ul {
-  list-style-image: url("../images/bullet.png");
+  list-style-image: url("../img/bullet.png");
 }
 
 strong {
