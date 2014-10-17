@@ -7,4 +7,3 @@ function dynamicAge() {
 	document.getElementById('age').innerHTML=age + "year-old";
 	t=setTimeout('dynamicAge()',100);
 }
-dynamicAge();
