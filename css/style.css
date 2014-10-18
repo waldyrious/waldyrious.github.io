@@ -1,33 +1,100 @@
-body {
+/*******************************************************************************
+ * Site-wide styles
+ */
+
+ body {
 	margin: 1em;
 	font-family: 'Roboto Slab', serif;
 	line-height: 1.5em;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	border-bottom: 1px solid #999;
+}
+
+h3 {
+	margin-bottom: 0;
 }
 
 .nobreak {
 	white-space: nowrap;
 }
 
-#waldir-img {
+ul.plain {
+	list-style: none;
+}
+
+/*******************************************************************************
+ * Page-specific styles
+ */
+
+#home #waldir-img {
 	border-radius: 50%;
 	display: block;
 	margin: 0 auto;
 }
 
 #profiles ul {
-	list-style: none;
 	column-width: 10em;
 	-moz-column-width: 10em;
 	-webkit-column-width: 10em;
 }
 
-/********************************
- * grid.css
+/* Enhance the CV with a table-like display
+ * if the screen is large enough */
+@media (min-width: 40rem) {
+	#cv dl {
+		display: table;
+	}
+	#cv dl > div {
+		display: table-row;
+	}
+	#cv dt {
+		display: table-cell;
+		text-align: right;
+		width: 8em;
+	}
+	#cv dd {
+		display: table-cell;
+		padding-left: 1.5em;
+	}
+}
+
+#cv .icon-what,
+#cv .icon-when,
+#cv .icon-where,
+#cv .icon-who,
+#cv .icon-book {
+	display: block;
+}
+
+#cv .icon-when {
+	font-style: italic;
+}
+
+#cv #updated {
+	width: 33%;
+	border-top: 1px solid silver;
+	text-align: center;
+	padding: 1em 0;
+	margin: 2em auto 0;
+}
+
+/*******************************************************************************
+ * print styles
  */
 
-*, *:before, *:after {
-	box-sizing: border-box;
+.page-break-above {
+	page-break-before: always;
 }
+
+/*******************************************************************************
+ * grid.css
+ */
 
 .container {
 	margin: 0 auto;
@@ -35,27 +102,26 @@ body {
 	width: 90%;
 }
 
+*, *:before, *:after { box-sizing: border-box; }
+
 /* Small screens (default) */
 html { font-size: 100%; }
- 
+
 /* Medium screens (640px) */
 @media (min-width: 40rem) {
 html { font-size: 112%; }
 }
- 
+
 /* Large screens (1024px) */
 @media (min-width: 64rem) {
 html { font-size: 120%; }
 }
 
-/********************************
+/*******************************************************************************
  * fluidity.css
  */
-img, canvas, iframe, video, svg, select, textarea {
-	max-width: 100%;
-}
+
+img, canvas, iframe, video, svg, select, textarea { max-width: 100%; }
 
 /* Wrap tables or pre elements in a div with this class */
-.overflow-container {
-	overflow-y: scroll;
-}
+.overflow-container { overflow-y: scroll; }
