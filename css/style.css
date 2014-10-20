@@ -5,6 +5,9 @@
  body {
 	margin: 1em;
 	font-family: 'Roboto Slab', serif;
+}
+
+p {
 	line-height: 1.5em;
 }
 
@@ -88,8 +91,12 @@ ul.plain {
  * print styles
  */
 
-.page-break-above {
-	page-break-before: always;
+@media print{
+.page-break-above { page-break-before: always; }
+}
+
+@media screen {
+.print-only { display: none; }
 }
 
 /*******************************************************************************
