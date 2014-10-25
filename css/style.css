@@ -4,7 +4,7 @@
 
  body {
 	margin: 1em;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Roboto', sans;
 }
 
 p {
@@ -21,6 +21,11 @@ h2 {
 
 h3 {
 	margin-bottom: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto Slab', serif;
+	font-weight: normal;
 }
 
 .nobreak {
@@ -50,18 +55,18 @@ ul.plain {
 /* Enhance the CV with a table-like display
  * if the screen is large enough */
 @media (min-width: 40rem) {
-	#cv dl {
+	#cv .table {
 		display: table;
 	}
-	#cv dl > div {
+	#cv .table > * {
 		display: table-row;
 	}
-	#cv dt {
+	#cv .field {
 		display: table-cell;
 		text-align: right;
-		width: 8em;
+		width: 10em;
 	}
-	#cv dd {
+	#cv .value {
 		display: table-cell;
 		padding-left: 1.5em;
 	}
@@ -72,7 +77,8 @@ ul.plain {
 #cv .icon-where,
 #cv .icon-who,
 #cv .icon-book {
-	display: block;
+	padding-left: 1.8em;
+	text-indent: -1.4em;
 }
 
 #cv .icon-when {
