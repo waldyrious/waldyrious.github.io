@@ -10,7 +10,6 @@
 	<link rel="stylesheet" href="css/style.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<!--<script src="https://hypothes.is/app/embed.js"></script>-->
-	<script src="js/fix-footer-referrer.js"></script>
 </head>
 <body id="home">
 <div class="container">
@@ -34,13 +33,14 @@
 		Feel free to pick your favorite of these to contact me,
 		or simply write to <a href="mailto:waldyrious@gmail.com">waldyrious@gmail.com</a>.
 	</p>
-	<script type="text/javascript">
-		var today=new Date();
-		var bday=new Date("February 16, 1986 05:15:00");
-		var age=((today-bday)/1000/60/60/24/365).toFixed(1);
-		document.getElementById('age').innerHTML = age + " year-old";
-	</script>
 </div>
 <iframe id="footer" src="footer.xhtml" seamless="seamless"></iframe>
+<script src="js/fix-footer-referrer.js"></script>
+<script type="text/javascript">
+	var today=new Date();
+	var bday=new Date("February 16, 1986 05:15:00");
+	var age=((today-bday)/1000/60/60/24/365).toFixed(1);
+	document.getElementById('age').innerHTML = age + " year-old";
+</script>
 </body>
 </html>
