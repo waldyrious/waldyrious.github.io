@@ -2,8 +2,7 @@
  * Site-wide styles
  */
 
- body {
-	margin: 1em;
+body {
 	font-family: 'Roboto', sans;
 }
 
@@ -35,6 +34,20 @@ h1, h2, h3, h4, h5, h6 {
 ul.plain {
 	list-style: none;
 }
+
+/*******************************************************************************
+ * Footer styles
+ */
+
+iframe#footer { width: 100%; border: 0px none transparent; height: 3em; display: block; }
+
+html#footer-noscroll { overflow-y: hidden; }
+
+footer { text-align: center; font-size: 90%; font-style: italic; }
+
+hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
+
+
 
 /*******************************************************************************
  * Page-specific styles
@@ -85,14 +98,6 @@ ul.plain {
 	font-style: italic;
 }
 
-#cv #updated {
-	width: 33%;
-	border-top: 1px solid silver;
-	text-align: center;
-	padding: 1em 0;
-	margin: 2em auto 0;
-}
-
 /*******************************************************************************
  * print styles
  */
@@ -109,8 +114,8 @@ ul.plain {
  * grid.css
  */
 
-.container {
-	margin: 0 auto;
+.container, footer {
+	margin: 1em auto 0;
 	max-width: 960px;
 	width: 90%;
 }
