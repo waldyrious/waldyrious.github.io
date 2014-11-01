@@ -19,11 +19,14 @@
 	Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.
 	</footer>
 	<script>
+		console.log("test 1");
 		// See js/fix-footer-referrer.js for details
 		window.parent.addEventListener('message', function (e) {
+			console.log("test 2");
 			if (e.data[0] == 'referrer') {
 				document.getElementById('validate').href =
 					'http://validator.w3.org/check?uri=' + e.data[1];
+				console.log("test 3");
 			}
 		}, false);
 	</script>

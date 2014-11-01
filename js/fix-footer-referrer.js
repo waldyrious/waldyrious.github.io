@@ -4,4 +4,5 @@
 
 function fixReferrer(footer){
 	footer.contentWindow.postMessage( ['referrer', window.location.href], '*' );
+	console.log(footer.src);
 }
