@@ -21,7 +21,7 @@
 	<script>
 		// See js/fix-footer-referrer.js for details
 		window.parent.addEventListener('message', function (e) {
-			switch (e.data[0] == 'referrer') {
+			if (e.data[0] == 'referrer') {
 				document.getElementById('validate').href =
 					'http://validator.w3.org/check?uri=' + e.data[1];
 			}
