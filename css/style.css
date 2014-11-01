@@ -39,7 +39,7 @@ ul.plain {
  * Footer styles
  */
 
-iframe#footer { width: 100%; border: 0px none transparent; height: 5em; display: block; }
+iframe#footer { width: 100%; border: 0px none transparent; height: 6em; display: block; }
 
 html#footer-noscroll { overflow-y: hidden; }
 
