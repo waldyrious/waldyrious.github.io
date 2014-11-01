@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="css/style.css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="css/fontello.css" />
+	<script src="js/fix-footer-referrer.js"></script>
 </head>
 <body id="cv">
 <div class="container">
@@ -291,6 +292,6 @@
 		</li>
 	</ul>
 </div>
-<iframe id="footer" src="footer.xhtml" seamless="seamless"></iframe>
+<iframe id="footer" src="footer.xhtml" seamless="seamless" onload="fixReferrer(this)"></iframe>
 </body>
 </html>
