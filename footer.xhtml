@@ -29,6 +29,8 @@
 				console.log("test 3");
 			}
 		}, false);
+		// Request call to the above
+		window.parent.postMessage('fixReferrer', '*');
 	</script>
 </body>
 </html>
