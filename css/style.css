@@ -2,38 +2,24 @@
  * Site-wide styles
  */
 
-body {
-	font-family: 'Roboto', sans;
-}
+body { font-family: 'Roboto', sans; }
 
-p {
-	line-height: 1.5em;
-}
+p { line-height: 1.5em; }
 
-h1 {
-	text-align: center;
-}
+h1 { text-align: center; }
 
-h2 {
-	border-bottom: 1px solid #999;
-}
+h2 { border-bottom: 1px solid #999; }
 
-h3 {
-	margin-bottom: 0;
-}
+h3 { margin-bottom: 0; }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Roboto Slab', serif;
 	font-weight: normal;
 }
 
-.nobreak {
-	white-space: nowrap;
-}
+.nobreak { white-space: nowrap; }
 
-ul.plain {
-	list-style: none;
-}
+ul.plain { list-style: none; }
 
 html#iframe-noscroll { overflow-y: hidden; }
 
@@ -134,7 +120,7 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 }
 
 /*******************************************************************************
- * print styles
+ * Print styles
  */
 
 @media print{
@@ -146,8 +132,10 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 }
 
 /*******************************************************************************
- * grid.css
+ * Fluid layout
  */
+
+/* grid.css */
 
 .container, footer {
 	margin: 0 auto;
@@ -175,11 +163,6 @@ html { font-size: 112%; }
 html { font-size: 120%; }
 }
 
-/*******************************************************************************
- * fluidity.css
- */
+/* fluidity.css */
 
 img, canvas, iframe, video, svg, select, textarea { max-width: 100%; }
-
-/* Wrap tables or pre elements in a div with this class */
-.overflow-container { overflow-y: scroll; }
