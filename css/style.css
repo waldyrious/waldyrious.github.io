@@ -35,7 +35,7 @@ iframe#nav {
 	border-bottom: 4px solid OrangeRed; /* alt: DarkTurquoise, YellowGreen */
 }
 
-.charcoal { background: #333; /*background: linear-gradient(#555, #222);*/ }
+.charcoal, iframe#nav { background: #333; }
 
 nav {
 	color: grey;
