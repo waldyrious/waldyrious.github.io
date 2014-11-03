@@ -56,15 +56,17 @@ nav {
 
 nav>a { color: white; text-decoration: none; }
 
+nav>a:visited { color: silver; }
+
+nav>a#homelink:visited { color: white; }
+
 nav>a:hover { text-decoration: underline; }
 
-nav>a:visited:not(#homelink) { color: silver; }
+nav>a#homelink:hover { text-decoration: none; }
 
-nav a#homelink, nav a#homelink:visited {
+nav a#homelink {
 	font-family: 'Fredericka the Great', serif;
-	font-weight: normal;
 	font-size: 200%;
-	text-decoration: none;
 	float: left;
 	padding-right: 0.5em;
 }
