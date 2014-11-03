@@ -1,8 +1,13 @@
+@import "normalize.css";
+@import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab);
+
 /*******************************************************************************
  * Site-wide styles
  */
 
-body { font-family: 'Roboto', sans; }
+body { font-family: 'Roboto', sans; font-weight: 300; }
 
 p { line-height: 1.5em; }
 
