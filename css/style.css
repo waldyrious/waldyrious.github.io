@@ -60,7 +60,7 @@ nav>a:hover { text-decoration: underline; }
 
 nav>a:visited:not(#homelink) { color: silver; }
 
-nav a#homelink {
+nav a#homelink, nav a#homelink:visited {
 	font-family: 'Fredericka the Great', serif;
 	font-weight: normal;
 	font-size: 200%;
