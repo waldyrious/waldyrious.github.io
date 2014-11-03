@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6 {
 
 ul.plain { list-style: none; }
 
+a { color: DodgerBlue; }
+
+a:visited { color: DarkSlateBlue; }
+
 html#iframe-noscroll { overflow-y: hidden; }
 
 iframe { width: 100%; border: 0px none transparent; display: block; }
@@ -37,7 +41,7 @@ iframe { width: 100%; border: 0px none transparent; display: block; }
 iframe#nav {
 	position: fixed; top: 0;
 	height: 3em; box-sizing: content-box;
-	border-bottom: 4px solid OrangeRed; /* alt: DarkTurquoise, YellowGreen */
+	border-bottom: 4px solid YellowGreen; /* alt: DarkTurquoise, OrangeRed */
 }
 
 .charcoal, iframe#nav { background: #333; }
@@ -50,7 +54,9 @@ nav {
 	line-height: 3em;
 }
 
-nav>a { color: white; font-weight: bold; }
+nav>a { color: white; text-decoration: none; }
+
+nav>a:hover { text-decoration: underline; }
 
 nav>a:visited:not(#homelink) { color: silver; }
 
