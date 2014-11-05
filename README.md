@@ -7,7 +7,6 @@ Redesign of my webpage (http://waldirpimenta.com)
 ### Contents:
 
 - [x] home
-    - todo: merge about.xhtml here, perhaps also with some bits from about.me
 - [ ] works
 - [ ] updates
     - Automatic feed -- need to think how to do it.
