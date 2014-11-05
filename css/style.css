@@ -147,8 +147,14 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 #bio li.past {
 	background: GreenYellow;
 }
+#bio li.empty {
+	background: DarkSeaGreen;
+}
 #bio li.present {
 	background: OrangeRed;
+}
+#bio li.future {
+	background: LightGrey;
 }
 #bio li.dead {
 	background: Grey;
@@ -168,14 +174,18 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 	border-top-left-radius: 0;
 	max-width: 30em;
 }
-#bio li:hover > span {
+#bio li.past:not(.empty):hover > span,
+#bio li.present:hover > span,
+#bio li.birthday:hover > span {
 	display:block;
 }
 #bio li.birthday {
 	border-color: #555;
 	border-width: 2px;
 }
-#bio li:hover, #bio li.birthday:hover {
+#bio li.past:not(.empty):hover,
+#bio li.present:hover,
+#bio li.birthday:hover {
 	background: yellow;
 	border-color: OrangeRed;
 	border-width: 2px;
