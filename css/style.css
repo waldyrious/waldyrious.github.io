@@ -150,7 +150,7 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 #bio li.present {
 	background: OrangeRed;
 }
-#bio li.probably-dead {
+#bio li.dead {
 	background: Grey;
 	display: none;
 }
