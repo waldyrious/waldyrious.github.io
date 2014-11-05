@@ -82,21 +82,23 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
  * Page-specific styles
  */
 
+/************ HOME ************/
 #home #waldir-img {
 	border-radius: 50%;
 	display: block;
 	margin: 0 auto;
 }
 
+/*********** CONTACT **********/
 #contact ul {
 	column-width: 10em;
 	-moz-column-width: 10em;
 	-webkit-column-width: 10em;
 }
 
-/* Enhance the CV with a table-like display
- * if the screen is large enough */
+/************* CV *************/
 @media (min-width: 40rem) {
+	/* Use a table-like display if the screen is large enough */
 	#cv .table {
 		display: table;
 	}
