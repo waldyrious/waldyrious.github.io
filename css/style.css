@@ -129,6 +129,67 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 	font-style: italic;
 }
 
+/************* BIO ************/
+#bio ul {
+	padding-left: 0;
+}
+#bio li {
+	float: left;
+	background: LightGrey;
+	display: block;
+	width: 1em;
+	height: 1em;
+	border: 1px solid black;
+	border-radius: 50%;
+	cursor: default;
+	margin: 0.2em;
+}
+#bio li.past {
+	background: GreenYellow;
+}
+#bio li.present {
+	background: OrangeRed;
+}
+#bio li.probably-dead {
+	background: Grey;
+	display: none;
+}
+#bio li > b,
+#bio li > span {
+	position:absolute;
+	display: none;
+	background: LightYellow;
+	border: 1px solid grey;
+	padding: 0.5em 1em;
+	line-height: 1em;
+	font-family: monospace;
+	margin-top: 1em;
+}
+#bio li > b {
+	border-right: none;
+	padding-right: 0;
+	margin-left: 0.5em;
+	width: 7em;
+	box-sizing: border-box;
+	border-bottom-left-radius: 1em;
+}
+#bio li > span {
+	border-left: none;
+	padding-left: 0.5em;
+	margin-left: 7em;
+	border-top-right-radius: 1em;
+	border-bottom-right-radius: 1em;
+}
+#bio li:hover > b,
+#bio li:hover > span {
+	display:block;
+}
+#bio li:hover {
+	background: yellow;
+	border-color: OrangeRed;
+	border-width: 2px;
+}
+
 /*******************************************************************************
  * Print styles
  */
