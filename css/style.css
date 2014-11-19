@@ -180,7 +180,7 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 	display:block;
 }
 #bio li.birthday {
-	border-color: #555;
+	border-color: #333;
 	border-width: 2px;
 }
 #bio li.past:not(.empty):hover,
