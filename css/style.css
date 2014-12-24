@@ -197,6 +197,7 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 
 @media print{
 .page-break-above { page-break-before: always; }
+.noprint { display:none; }
 }
 
 @media screen {
