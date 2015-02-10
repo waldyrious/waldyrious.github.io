@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?18965377');
-  src: url('../font/fontello.eot?18965377#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff?18965377') format('woff'),
-       url('../font/fontello.ttf?18965377') format('truetype'),
-       url('../font/fontello.svg?18965377#fontello') format('svg');
+  src: url('../font/fontello.eot?24677432');
+  src: url('../font/fontello.eot?24677432#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff?24677432') format('woff'),
+       url('../font/fontello.ttf?24677432') format('truetype'),
+       url('../font/fontello.svg?24677432#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?18965377#fontello') format('svg');
+    src: url('../font/fontello.svg?24677432#fontello') format('svg');
   }
 }
 */
@@ -50,8 +50,8 @@
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
 
-.icon-wrench:before,    .icon-what:before  { content: '\e801'; } /* '' */
-.icon-clock:before,     .icon-when:before  { content: '\e804'; } /* '' */
-.icon-town-hall:before, .icon-where:before { content: '\e809'; } /* '' */
-.icon-home:before                          { content: '\e802'; } /* '' */
-.icon-building:before                      { content: '\e80d'; } /* '' */
+.icon-institution:before, .icon-where:before { content: '\e800'; } /* FontAwesome | fa-university  | U+F19C */
+.icon-clock:before,       .icon-when:before  { content: '\e801'; } /* MFG Labs    | icon-clock     | U+23F2 (TIMER CLOCK) */
+.icon-wrench:before,      .icon-what:before  { content: '\e802'; } /* Elusive     | el-icon-wrench | U+E604 */
+.icon-user:before,        .icon-who:before   { content: '\e803'; } /* Web Symbols | user           | U+002E (FULL STOP) */
+.icon-book:before                            { content: '\e804'; } /* FontAwesome | fa-book        | U+F02D */
