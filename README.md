@@ -4,7 +4,7 @@ waldyrious.github.io
 Redesign of my webpage (http://waldirpimenta.com)
 
 
-### Contents:
+### Todo:
 
 - [x] home
 - [ ] works
@@ -20,3 +20,8 @@ Redesign of my webpage (http://waldirpimenta.com)
 - [x] cv
 - [x] timeline
 - [x] contact
+
+
+### License
+
+[Creative Commons Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/)
