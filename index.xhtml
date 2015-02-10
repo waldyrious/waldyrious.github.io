@@ -55,7 +55,10 @@
 <script type="text/javascript">
 	var today=new Date();
 	var bday=new Date("February 16, 1986 05:15:00");
-	var age=((today-bday)/1000/60/60/24/365).toFixed(1);
+	var age=((today-bday)/1000/60/60/24/365.24225);
+	// 365.24225 --> looks like JavaScript has implemented Herschel's correction:
+	// https://en.wikipedia.org/wiki/Gregorian_calendar#Accuracy
+	age = (Math.floor(age*10)/10).toFixed(1);
 	document.getElementById('age').innerHTML = age + " year-old";
 </script>
 </body>
