@@ -2,6 +2,4 @@
 // Should be called "referer", but I refuse to obey a spec term
 // that is based on a misspelling: https://en.wiktionary.org/wiki/referer#Usage_notes
 
-function fixReferrer(footer){
-	footer.contentWindow.postMessage( ['referrer', window.location.href], '*' );
-}
+document.getElementById('footer').contentWindow.postMessage( ['referrer', window.location.href], '*' );
