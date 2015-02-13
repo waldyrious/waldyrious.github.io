@@ -15,12 +15,16 @@
 	Website last updated Feb 2015.
 	<a id="validate" href="http://validator.w3.org/check?uri=waldyrious.github.io">Valid</a>
 	<a href="http://www.w3.org/TR/html-polyglot/">polyglot xhtml5</a>.
-	Source code <a href="https://github.com/waldyrious/waldyrious.github.io">on GitHub</a>.
+	Source code <a id="src" href="https://github.com/waldyrious/waldyrious.github.io">on GitHub</a>.
 	Licensed under <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.
 	</footer>
 	<script>
 		document.getElementById('validate').href =
-			'http://validator.w3.org/check?uri=' + window.parent.location.href;
+			'http://validator.w3.org/check?uri=' +
+			window.parent.location.href;
+		document.getElementById('src').href =
+			'https://github.com/waldyrious/waldyrious.github.io/blob/master' +
+			window.parent.location.pathname;
 	</script>
 </body>
 </html>
