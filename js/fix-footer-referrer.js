@@ -4,7 +4,6 @@
 
 var footer = document.getElementById('footer');
 footer.onload = function() {
-  console.log(this);
-  console.log(footer);
+  console.log(window.location.href);
   footer.contentWindow.postMessage( ['referrer', window.location.href], '*' );
 }
