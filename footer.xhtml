@@ -19,17 +19,8 @@
 	Licensed under <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.
 	</footer>
 	<script>
-		// See js/fix-footer-referrer.js for details
-		console.log("footer loaded");
-		console.log(window.parent.location.href);
-		window.addEventListener('message', function (e) {
-			console.log("message received");
-			if (e.data[0] == 'referrer') {
-				console.log("e.data = referrer");
-				document.getElementById('validate').href =
-					'http://validator.w3.org/check?uri=' + e.data[1];
-			}
-		}, false);
+		document.getElementById('validate').href =
+			'http://validator.w3.org/check?uri=' + window.parent.location.href;
 	</script>
 </body>
 </html>
