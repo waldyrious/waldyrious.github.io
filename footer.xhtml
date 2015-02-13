@@ -21,14 +21,14 @@
 	<script>
 		// See js/fix-footer-referrer.js for details
 		console.log("footer loaded");
-		/*window.parent.addEventListener('message', function (e) {
+		window.parent.addEventListener('message', function (e) {
 			console.log("message received");
 			if (e.data[0] == 'referrer') {
 				console.log("e.data = referrer");
 				document.getElementById('validate').href =
 					'http://validator.w3.org/check?uri=' + e.data[1];
 			}
-		}, false);*/
+		}, false);
 	</script>
 </body>
 </html>
