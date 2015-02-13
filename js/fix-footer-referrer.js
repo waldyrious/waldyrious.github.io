@@ -2,4 +2,7 @@
 // Should be called "referer", but I refuse to obey a spec term
 // that is based on a misspelling: https://en.wiktionary.org/wiki/referer#Usage_notes
 
-document.getElementById('footer').contentWindow.postMessage( ['referrer', window.location.href], '*' );
+var footer = document.getElementById('footer');
+footer.onload = function() {
+  footer.contentWindow.postMessage( ['referrer', window.location.href], '*' );
+}
