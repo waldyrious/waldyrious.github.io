@@ -20,15 +20,17 @@
 	Licensed under <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.
 	</footer>
 	<script>
-		document.getElementById('validate').href =
-			'http://validator.w3.org/check?uri=' +
-			window.parent.location.href;
-		document.getElementById('mobile').href =
-			'https://www.google.com/webmasters/tools/mobile-friendly/?url=' +
-			window.parent.location.href;
-		document.getElementById('src').href =
-			'https://github.com/waldyrious/waldyrious.github.io/blob/master' +
-			window.parent.location.pathname;
+		if (window.parent.location.pathname !== "/") {
+			document.getElementById('validate').href =
+				'http://validator.w3.org/check?uri=' +
+				window.parent.location.href;
+			document.getElementById('mobile').href =
+				'https://www.google.com/webmasters/tools/mobile-friendly/?url=' +
+				window.parent.location.href;
+			document.getElementById('src').href =
+				'https://github.com/waldyrious/waldyrious.github.io/blob/master' +
+				window.parent.location.pathname;
+		}
 	</script>
 </body>
 </html>
