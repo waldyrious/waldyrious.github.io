@@ -6,11 +6,14 @@ Redesign of my webpage (http://waldirpimenta.com)
 ### Implementation notes
 
 - **Fully [client-side](https://en.wikipedia.org/wiki/Client-side_scripting)**:
-  no need for server logic, can be statically hosted
+  no server logic --> can be hosted anywhere, without requiring a web server
 - **[DRY code](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)**:
   common elements (navigation menu and footer) are defined once and instantiated multiple times
-    - Declarative (non-js) inclusion of common header and footer through seamless iframes
-    - Declarative inclusion of resources (css/js) not yet possible, so header isn't fully DRY.
+    - [Declarative](http://tutorials.jenkov.com/angularjs/critique.html#the-declarative-imperative-paradigm-mismatch)
+      (static, javascript-free) inclusion of common header and footer through seamless iframes
+    - Declarative inclusion of multiple resources (css/js) using an intermediate document is
+      [not yet possible](http://caniuse.com/#feat=imports),
+      so the header isn't fully DRY for now.
 - **[Progressively enhanced](https://en.wikipedia.org/wiki/Progressive_enhancement)**:
   functional without js and even css
   (except iframes' seamlessness, which currently relies in css
@@ -18,7 +21,7 @@ Redesign of my webpage (http://waldirpimenta.com)
 - **[Valid](http://validator.w3.org/check?uri=http://waldyrious.github.io),
   [polyglot xhtml5](http://www.w3.org/TR/html-polyglot/)**:
   well-formed, valid as both html5 and xml;
-  machine readable with any xml parser; errors are fatal so they don't creep up.
+  machine readable with any xml parser; errors are fatal so they don't creep up over time.
 - **[Mobile-friendly](https://www.google.com/webmasters/tools/mobile-friendly/?url=http://waldyrious.github.io)**
 
 
