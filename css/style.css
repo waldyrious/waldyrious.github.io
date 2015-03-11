@@ -96,13 +96,18 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 	-webkit-column-width: 10em;
 }
 
-#contact ul > li > a {
+#contact ul > li > a[id] {
 	background-position: 0 center;
 	padding-left: 20px;
 	background-repeat: no-repeat;
 }
+
 #contact #academia-edu {
 	background-image:url(http://www.google.com/s2/favicons?domain=academia.edu);
+}
+
+#contact #github {
+	background-image:url(http://www.google.com/s2/favicons?domain=github.com);
 }
 
 #contact #google-scholar {
