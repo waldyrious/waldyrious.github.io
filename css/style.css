@@ -96,6 +96,39 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 	-webkit-column-width: 10em;
 }
 
+#contact ul > li > a {
+	background-position: 0 center;
+	padding-left: 20px;
+	background-repeat: no-repeat;
+}
+#contact #academia-edu {
+	background-image:url(http://www.google.com/s2/favicons?domain=academia.edu);
+}
+
+#contact #google-scholar {
+	background-image:url(http://www.google.com/s2/favicons?domain=scholar.google.com);
+}
+
+#contact #linkedin {
+	background-image:url(http://www.google.com/s2/favicons?domain=linkedin.com);
+}
+
+#contact a#mendeley {
+	background-image:url(http://www.google.com/s2/favicons?domain=mendeley.com);
+}
+
+#contact #researchgate {
+	background-image:url(http://www.google.com/s2/favicons?domain=researchgate.com);
+}
+
+#contact #vizualize-me {
+	background-image:url(http://www.google.com/s2/favicons?domain=vizualize.me);
+}
+
+#contact #xing {
+	background-image:url(http://www.google.com/s2/favicons?domain=xing.com);
+}
+
 /************* CV *************/
 @media (min-width: 40rem) {
 	/* Use a table-like display if the screen is large enough */
