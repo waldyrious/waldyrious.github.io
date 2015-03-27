@@ -248,32 +248,23 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 
 /* aekaplan/grid */
 
-.container, footer {
+.container, footer { /* step 4 */
 	margin: 0 auto;
 	max-width: 960px;
 	width: 90%;
 }
 
-.container {
+.container { /* custom tweaks */
 	margin-top: 3em; /* to make room for the navbar */
-	padding-top: 1em; /* breathing room */
+	padding-top: 1em; /* custom tweak: breathing room */
 }
 
-*, *:before, *:after { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: border-box; } /* step 3 */
 
-/* Small screens (default) */
-html { font-size: 100%; }
+html { font-size: 100%; }                               /* Small screens (default) */
+@media (min-width: 40rem) { html { font-size: 112%; } } /* Medium screens (640px) */
+@media (min-width: 64rem) { html { font-size: 120%; } } /* Large screens (1024px) */ 
 
-/* Medium screens (640px) */
-@media (min-width: 40rem) {
-html { font-size: 112%; }
-}
-
-/* Large screens (1024px) */
-@media (min-width: 64rem) {
-html { font-size: 120%; }
-}
-
-/* fluidity.css */
+/* mrmrs/fluidity */
 
 img, canvas, iframe, video, svg, select, textarea { max-width: 100%; }
