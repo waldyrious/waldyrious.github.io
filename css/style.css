@@ -246,7 +246,7 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
  * Fluid layout
  */
 
-/* grid.css */
+/* aekaplan/grid */
 
 .container, footer {
 	margin: 0 auto;
