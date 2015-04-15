@@ -137,34 +137,46 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 /************* CV *************/
 @media (min-width: 40rem) {
 	/* Use a table-like display if the screen is large enough */
-	#cv .table {
+	#cv ul.table {
 		display: table;
 	}
-	#cv .table > * {
+	#cv ul.table > li {
 		display: table-row;
 	}
-	#cv .field {
+	#cv span.field {
 		display: table-cell;
 		text-align: right;
 		width: 10em;
 	}
-	#cv .value {
+	#cv span.value {
 		display: table-cell;
 		padding-left: 1.5em;
 	}
 }
 
-#cv .icon-what,
-#cv .icon-when,
-#cv .icon-where,
-#cv .icon-who,
+#cv .icon-work,
+#cv .icon-time,
+#cv .icon-univ, #cv .icon-corp, #cv .icon-city,
+#cv .icon-name,
 #cv .icon-book {
 	padding-left: 1.8em;
 	text-indent: -1.2em;
 }
 
-#cv .icon-when {
+#cv .icon-time {
 	font-style: italic;
+}
+
+@media print {
+	#cv { font-size: 80%; }
+	#cv > div.container { margin-top: 0; padding-top: 0; }
+	#cv ul.plain { padding-left: 0.5rem; }
+	#cv ul.plain div { padding-left: 2.5em; }
+	#cv h2 { background-color: #eee; padding-left: 0.5rem; }
+	/* For Firefox */
+	#cv ul.table { display: block; }
+	#cv ul.table > li { display: list-item; }
+	#cv ul.table span.field, #cv ul.table span.value { display: inline; padding: 0; }
 }
 
 /************* BIO ************/
@@ -230,16 +242,17 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 }
 
 /*******************************************************************************
- * Print styles
+ * Generic print styles
  */
 
-@media print{
-.page-break-above { page-break-before: always; }
-.noprint { display:none; }
+@media print {
+	.page-break-above { page-break-before: always; }
+	.noprint { display: none; }
+	abbr[title] { border-bottom: none; }
 }
 
 @media screen {
-.print-only { display: none; }
+	.print-only { display: none; }
 }
 
 /*******************************************************************************
