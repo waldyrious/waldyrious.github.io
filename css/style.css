@@ -1,4 +1,4 @@
-/*******************************************************************************
+﻿/*******************************************************************************
  * Site-wide styles
  */
 
@@ -135,15 +135,33 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 }
 
 /************* CV *************/
+
+#cv ul {
+	padding-left: 2em;
+}
+#cv ul:not(.plain):not(.table) li {
+	list-style: none;
+    padding-left: 1.8em;
+    text-indent: -1.4em;
+	
+}
+#cv ul:not(.plain):not(.table) li:before {
+    content: "●\2002\2006";
+    color: #999;
+}
+#cv ul.plain ul {
+	padding-left: 0;
+}
+
+/* Use a table-like display if the screen is large enough */
 @media (min-width: 40rem) {
-	/* Use a table-like display if the screen is large enough */
 	#cv ul.table {
 		display: table;
 	}
 	#cv ul.table > li {
 		display: table-row;
 	}
-	#cv span.field {
+	#cv strong.field {
 		display: table-cell;
 		text-align: right;
 		width: 10em;
