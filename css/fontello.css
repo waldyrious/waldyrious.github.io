@@ -57,9 +57,9 @@
 }
 
 /* If re-generating this font, remember to customize the names and the codes to match the definitions below */
-.icon-corp:before { content: '🏢'; } /* '\1f3e2' OFFICE BUILDING → FontAwesome: fa-building-filled () */
+.icon-corp:before { content: '🏢'; } /* '\1f3e2' OFFICE BUILDING → FontAwesome: fa-building (U+F1AD [PUA]) */
 .icon-univ:before { content: '🏛'; } /* '\1f3db' CLASSICAL BUILDING → FontAwesome: fa-university (U+F19C [PUA]) */
-.icon-city:before { content: '🏙'; } /* '\1f3d9' CITYSCAPE → FontAwesome: fa-location () */
+.icon-city:before { content: '🏙'; } /* '\1f3d9' CITYSCAPE → FontAwesome: fa-map-marker (U+F041 [PUA]) */
 .icon-time:before { content: '🕓'; } /* '\1f553' CLOCK FACE FOUR OCLOCK → MFG Labs: icon-clock (U+23F2 TIMER CLOCK) */
 .icon-work:before { content: '🔧'; } /* '\1f527' WRENCH → Elusive: el-icon-wrench (U+E604 [PUA]) */
 .icon-name:before { content: '👤'; } /* '\1f464' BUST IN SILHOUETTE → Web Symbols: user (U+002E FULL STOP) */
