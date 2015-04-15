@@ -2,7 +2,7 @@
  * Site-wide styles
  */
 
-body { font-family: 'Roboto', sans; font-weight: 300; }
+body { font-family: 'Roboto', sans; font-weight: 300; color: #333; }
 
 p { line-height: 1.5em; }
 
@@ -139,15 +139,18 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 #cv ul {
 	padding-left: 2em;
 }
-#cv ul:not(.plain):not(.table) li {
+#cv ul {
 	list-style: none;
-    padding-left: 1.8em;
-    text-indent: -1.4em;
-	
 }
-#cv ul:not(.plain):not(.table) li:before {
-    content: "●\2002\2006";
+#cv ul:not([class]) li:before {
+    content: "●";
     color: #999;
+	line-height: 1.25em;
+	display: inline-block;
+	width: 1em;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
+	text-align: center;
 }
 #cv ul.plain ul {
 	padding-left: 0;
@@ -172,13 +175,9 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 	}
 }
 
-#cv .icon-work,
-#cv .icon-time,
-#cv .icon-univ, #cv .icon-corp, #cv .icon-city,
-#cv .icon-name,
-#cv .icon-book {
-	padding-left: 1.8em;
-	text-indent: -1.2em;
+[class^="icon-"]:before{
+	margin-right: 0.5em;
+	margin-left: 0.5em;
 }
 
 #cv .icon-time {
@@ -188,8 +187,7 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 @media print {
 	#cv { font-size: 80%; }
 	#cv > div.container { margin-top: 0; padding-top: 0; }
-	#cv ul.plain { padding-left: 0.5rem; }
-	#cv ul.plain div { padding-left: 2.5em; }
+	#cv ul { padding-left: 0.5rem; }
 	#cv h2 { background-color: #eee; padding-left: 0.5rem; }
 	/* For Firefox */
 	#cv ul.table { display: block; }
