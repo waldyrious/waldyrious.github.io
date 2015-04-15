@@ -57,4 +57,5 @@
 .icon-time:before { content: '🕓'; } /* '\1f553' CLOCK FACE FOUR OCLOCK → MFG Labs: icon-clock (U+23F2 TIMER CLOCK) */
 .icon-work:before { content: '🔧'; } /* '\1f527' WRENCH → Elusive: el-icon-wrench (U+E604 [PUA]) */
 .icon-name:before { content: '👤'; } /* '\1f464' BUST IN SILHOUETTE → Web Symbols: user (U+002E FULL STOP) */
-.icon-book:before { content: '📕'; } /* '\1f4d5' CLOSED BOOK  → FontAwesome: fa-book (U+F02D [PUA]) */
+.icon-book:before { content: '📕'; } /* '\1f4d5' CLOSED BOOK → FontAwesome: fa-book (U+F02D [PUA]) */
+.icon-grad:before { content: '🎓'; } /* '\1f393' GRADUATION CAP' → FontAwesome: fa-graduation-cap (U+F19D [PUA]) */
