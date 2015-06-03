@@ -12,7 +12,7 @@ Redesign of my webpage (http://waldirpimenta.com)
     - [Declarative](http://tutorials.jenkov.com/angularjs/critique.html#the-declarative-imperative-paradigm-mismatch)
       (static, javascript-free) inclusion of common header and footer through seamless iframes
     - Declarative inclusion of multiple resources (css/js) using an intermediate document is
-      [not yet possible](http://caniuse.com/#feat=imports),
+      [not yet](http://caniuse.com/#feat=imports) [possible](http://jonrimmer.github.io/are-we-componentized-yet/),
       so the header isn't fully DRY for now.
 - **[Progressively enhanced](https://en.wikipedia.org/wiki/Progressive_enhancement)**:
   functional without js and even css
