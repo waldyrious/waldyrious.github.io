@@ -63,3 +63,77 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/waldyrious
 
 ==================================================================
+
+==================================================================
+https://keybase.io/waldyrious
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://waldyrious.net
+  * I am waldyrious (https://keybase.io/waldyrious) on keybase.
+  * I have a public key with fingerprint 0259 AB69 5C76 1474 B813  F3D0 983C BDC4 A57E 1723
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "0259ab695c761474b813f3d0983cbdc4a57e1723",
+            "host": "keybase.io",
+            "key_id": "983cbdc4a57e1723",
+            "kid": "01019ca59cf22a235b9a877d0443923d99b1c6b9b00a35304ba2a50be1696ca6077d0a",
+            "uid": "0f5e1ea6669a6a7776e1d4831022cf00",
+            "username": "waldyrious"
+        },
+        "revoke": {
+            "sig_ids": [
+                "6d005d929035fb9b2b1a0cc059397e7fb91ae64ee7c28b86b42ca4bfcdb556370f"
+            ]
+        },
+        "service": {
+            "hostname": "waldyrious.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1433414787,
+    "expire_in": 157680000,
+    "prev": "6dcd537e3060dc96fc43707474d3a2c324dce3324735bb96247ff9cd5c25d3c2",
+    "seqno": 24,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMJnAnicbZJbbBVFGMdPVaitNx4AMQQTx+RI9KTMzuzM7JxEA1GBINUQLGmAUua2
+p5u2u8c925bSgMTLAzZW20QTCD6gBh5MY2KqrRDutygUGyHcNBoxphAaRSCUilBm
+Kz7pvszON//v9/3n++bgQ/dmKssO/v509uKZPbPKju7b2pKpKebe7AAy0u0g3wEa
+zcTiB2HBxMU4CBOQBxARLiTlRDHquMyVnoN9rCH3sJJauYIw4zCEQQ40RKU0w2Kk
+KJmqILIxu6kPtI3+j75x4gA60OFKEK58hATCRHLhMaah62KOsOZcOopKLiEUmGDo
+SoEEgdI4lFMlKEy1wuJa/sH5xDhGUEq5oIIxRo2jXQ87ECHlQ5gKSyYORbOx6jbR
+pNvjIGopgXU5EJvWqNGkPSgFBWu7BPIrANUQEs0Rh5j41gaSjoBKQcIxZ4bZkCMM
+dY1hCnnSo9JFSrjSV1oSQjGDPqizbFuzNVAT8LRP/6lfFZrEeivGURKpqMmeNSRJ
+MZ/aStqLE1oj6+9S6mUQajsmm9Bq4lIQhSDvWKVKghTruBi7dlgeywGzphjEpj5I
+FYRRD9ovLWNaLZJqpQlmBkMKteLUV641zOyYNRZIYeRqZbBdmB2L5NT++D63OQoR
+jRUC6b1eCyOQR671KQqWaVsXiqQlNmDd/r0r78uUVWYmT7onfWmZyoop/76/ubny
+8YXO6uHCifC5P9dne19qHpoxWF7Tf31z3aK3L23snrQx+6PXPW1+56HvV4wtul7z
+St/cr/vrPnl+fGe2uuvLT+d0jve+8NVWNpA9u/vG8WRod9XU70YGRpcsfuDhL36+
+OrbtXHndY4/vnb60dt7l170Zt+4/9e3f5+nH3flnph4Gx1j44u2eD396b/mrl+bh
+wvyetQtOH29b+MEbn28YdP/oHO39Ye3p5gsLzkZX5NWKW3u6ykn/ENvs/NJVvepI
+w46nfj21uLq6onHTye2fnVz5/tLe0b4tzavozUdf3vLW+aZl7/QcGP5t+EFVWjOw
+bNfIX7Vj1/pGZt/etP6bd599YsO+w5ef/Khj5ugjk6fVLh9suwOro08p
+=XNEf
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/waldyrious
+
+==================================================================
