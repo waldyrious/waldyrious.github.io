@@ -147,9 +147,9 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 	color: #999;
 	line-height: 1.25em;
 	display: inline-block;
-	width: 1em;
-	margin-right: 0.5em;
-	margin-left: 0.5em;
+	width: 1rem;
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
 	text-align: center;
 	font-size: small;
 	position: relative;
