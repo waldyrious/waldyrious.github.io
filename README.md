@@ -1,7 +1,7 @@
 waldyrious.github.io
 ====================
 
-I decided to host my website in a ersion-controlled system. What better option than github pages? :D
+I decided to host my website in a version-controlled system. What better option than github pages? :D
 
 Available at: http://waldirpimenta.com | http://waldyrious.net | http://wald.ir
 
