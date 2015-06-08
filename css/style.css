@@ -143,14 +143,17 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 	list-style: none;
 }
 #cv ul:not([class]) li:before {
-    content: "●";
-    color: #999;
+	content: "●"; /* BLACK CIRCLE (U+25CF) */
+	color: #999;
 	line-height: 1.25em;
 	display: inline-block;
 	width: 1em;
 	margin-right: 0.5em;
 	margin-left: 0.5em;
 	text-align: center;
+	font-size: small;
+	position: relative;
+	bottom: 0.3em;
 }
 #cv ul.plain ul {
 	padding-left: 0;
