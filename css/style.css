@@ -196,6 +196,8 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 	#cv ul.table { display: block; }
 	#cv ul.table > li { display: list-item; }
 	#cv ul.table span.field, #cv ul.table span.value { display: inline; padding: 0; }
+	/* Adjust font-size for printing */
+	#cv ul:not([class]) li:before {	font-size: xx-small; }
 }
 
 /************* BIO ************/
