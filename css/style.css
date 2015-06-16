@@ -142,6 +142,9 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 #cv ul {
 	list-style: none;
 }
+#cv ul.plain ul {
+	padding-left: 0;
+}
 #cv ul:not([class]) li:before {
 	content: "⚫"; /* MEDIUM BLACK CIRCLE (U+26AB) */
 	/* Identical to fontello.css */
@@ -150,10 +153,13 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 	width: 1em;
 	text-align: center;
 }
-#cv ul.plain ul {
-	padding-left: 0;
+#cv [class^="icon-"]:before, #cv ul:not([class]) li:before {
+	margin-right: 0.5em;
+	margin-left: 0.5em;
 }
-
+#cv .icon-time {
+	font-style: italic;
+}
 /* Use a table-like display if the screen is large enough */
 @media (min-width: 40rem) {
 	#cv ul.table {
@@ -172,16 +178,6 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 		padding-left: 1.5em;
 	}
 }
-
-#cv [class^="icon-"]:before, #cv ul:not([class]) li:before {
-	margin-right: 0.5em;
-	margin-left: 0.5em;
-}
-
-#cv .icon-time {
-	font-style: italic;
-}
-
 @media print {
 	#cv { font-size: 80%; }
 	#cv > div.container { margin-top: 0; padding-top: 0; }
