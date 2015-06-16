@@ -135,7 +135,7 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	padding-left: 0;
 }
 #cv h2#publications+ul:after {
-	content: "[J] = Journal article; [C] = Conference article; [P] = Poster; [T] = Thesis";
+	content: "(J)ournal article; (C)onference article; (P)oster; (T)hesis";
 	font-style: italic;
 	font-size: 80%;
 	display: block;
