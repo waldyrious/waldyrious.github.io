@@ -143,17 +143,14 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 	list-style: none;
 }
 #cv ul:not([class]) li:before {
-	content: "●"; /* BLACK CIRCLE (U+25CF) */
+	content: "⚫"; /* MEDIUM BLACK CIRCLE (U+26AB) */
 	color: #999;
 	line-height: 1.25em;
 	display: inline-block;
-	width: 1rem;
-	margin-right: 0.5rem;
-	margin-left: 0.5rem;
+	width: 1em;
+	margin-right: 0.5em;
+	margin-left: 0.5em;
 	text-align: center;
-	font-size: small;
-	position: relative;
-	bottom: 0.3em;
 }
 #cv ul.plain ul {
 	padding-left: 0;
@@ -196,8 +193,6 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 	#cv ul.table { display: block; }
 	#cv ul.table > li { display: list-item; }
 	#cv ul.table span.field, #cv ul.table span.value { display: inline; padding: 0; }
-	/* Adjust font-size for printing */
-	#cv ul:not([class]) li:before {	font-size: xx-small; }
 }
 
 /************* BIO ************/
