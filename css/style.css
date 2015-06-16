@@ -141,13 +141,13 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	display: block;
 	text-align: right;
 }
-#cv h3.pub-journal:before { content: "[J] "; }
+#cv h3.pub-journal:after { content: " (J)"; }
 
-#cv h3.pub-conf:before    { content: "[C] "; }
+#cv h3.pub-conf:after    { content: " (C)"; }
 
-#cv h3.pub-poster:before  { content: "[P] "; }
+#cv h3.pub-poster:after  { content: " (P)"; }
 
-#cv h3.pub-thesis:before  { content: "[T] "; }
+#cv h3.pub-thesis:after  { content: " (T)"; }
 
 #cv ul:not([class]) li:before {
 	content: "⚫"; /* MEDIUM BLACK CIRCLE (U+26AB) */
