@@ -74,9 +74,7 @@ iframe#footer { height: 6em; }
 
 footer { text-align: center; font-size: 90%; font-style: italic; }
 
-hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
-
-
+hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 
 /*******************************************************************************
  * Page-specific styles
@@ -95,41 +93,32 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 	-moz-column-width: 10em;
 	-webkit-column-width: 10em;
 }
-
 #contact ul > li > a[id] {
 	background-position: 0 center;
 	padding-left: 20px;
 	background-repeat: no-repeat;
 }
-
 #contact #academia-edu {
 	background-image:url(http://www.google.com/s2/favicons?domain=academia.edu);
 }
-
 #contact #github {
 	background-image:url(http://www.google.com/s2/favicons?domain=github.com);
 }
-
 #contact #google-scholar {
 	background-image:url(http://www.google.com/s2/favicons?domain=scholar.google.com);
 }
-
 #contact #linkedin {
 	background-image:url(http://www.google.com/s2/favicons?domain=linkedin.com);
 }
-
 #contact a#mendeley {
 	background-image:url(http://www.google.com/s2/favicons?domain=mendeley.com);
 }
-
 #contact #researchgate {
 	background-image:url(http://www.google.com/s2/favicons?domain=researchgate.com);
 }
-
 #contact #vizualize-me {
 	background-image:url(http://www.google.com/s2/favicons?domain=vizualize.me);
 }
-
 #contact #xing {
 	background-image:url(http://www.google.com/s2/favicons?domain=xing.com);
 }
@@ -148,13 +137,18 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 #cv h2#publications+ul:after {
 	content: "[J] = Journal article; [C] = Conference article; [P] = Poster; [T] = Thesis";
 	font-style: italic;
-	margin-top: 0.5em;
 	font-size: 80%;
+	display: block;
+	text-align: right;
 }
 #cv h3.pub-journal:before { content: "[J] "; }
+
 #cv h3.pub-conf:before    { content: "[C] "; }
+
 #cv h3.pub-poster:before  { content: "[P] "; }
+
 #cv h3.pub-thesis:before  { content: "[T] "; }
+
 #cv ul:not([class]) li:before {
 	content: "⚫"; /* MEDIUM BLACK CIRCLE (U+26AB) */
 	/* Identical to fontello.css */
@@ -167,9 +161,8 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 	margin-right: 0.5em;
 	margin-left: 0.5em;
 }
-#cv .icon-time {
-	font-style: italic;
-}
+#cv .icon-time { font-style: italic; }
+
 /* Use a table-like display if the screen is large enough */
 @media (min-width: 40rem) {
 	#cv ul.table {
