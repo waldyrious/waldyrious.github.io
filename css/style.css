@@ -144,12 +144,10 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 }
 #cv ul:not([class]) li:before {
 	content: "⚫"; /* MEDIUM BLACK CIRCLE (U+26AB) */
+	/* Identical to fontello.css */
 	color: #999;
-	line-height: 1.25em;
 	display: inline-block;
 	width: 1em;
-	margin-right: 0.5em;
-	margin-left: 0.5em;
 	text-align: center;
 }
 #cv ul.plain ul {
@@ -175,7 +173,7 @@ hr#footer-top { width: 33%; border:none; border-top: 1px solid silver; }
 	}
 }
 
-[class^="icon-"]:before{
+#cv [class^="icon-"]:before, #cv ul:not([class]) li:before {
 	margin-right: 0.5em;
 	margin-left: 0.5em;
 }
