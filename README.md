@@ -8,13 +8,15 @@ Available at: http://waldirpimenta.com | http://waldyrious.net | http://wald.ir
 ### Implementation notes
 
 - **Fully [client-side](https://en.wikipedia.org/wiki/Client-side_scripting)**:
-  no server logic --> can be hosted anywhere, without requiring a web server
+  no server logic → can be hosted / run from anywhere, without requiring a web server
 - **[DRY code](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)**:
   common elements (navigation menu and footer) are defined once and instantiated multiple times
     - [Declarative](http://tutorials.jenkov.com/angularjs/critique.html#the-declarative-imperative-paradigm-mismatch)
       (static, javascript-free) inclusion of common header and footer through seamless iframes
-    - Declarative inclusion of multiple resources (css/js) using an intermediate document is
-      [not yet](http://caniuse.com/#feat=imports) [possible](http://jonrimmer.github.io/are-we-componentized-yet/),
+    - Declarative inclusion of multiple resources (CSS/JS)
+      using an [intermediate document](resources.html)
+      through [HTML imports](http://webcomponents.org/articles/introduction-to-html-imports/#using-html-imports)
+      is [not yet](http://caniuse.com/#feat=imports) [possible](http://jonrimmer.github.io/are-we-componentized-yet/),
       so the header isn't fully DRY for now.
 - **[Progressively enhanced](https://en.wikipedia.org/wiki/Progressive_enhancement)**:
   functional without js and even css
