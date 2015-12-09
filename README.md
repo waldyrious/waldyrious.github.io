@@ -25,7 +25,8 @@ Available at: http://waldirpimenta.com | http://waldyrious.net | http://wald.ir
 - **[Valid](http://validator.w3.org/check?uri=http://waldyrious.github.io),
   [polyglot xhtml5](https://en.wikipedia.org/wiki/Polyglot_markup)**:
   well-formed, valid as both html5 and xml;
-  machine readable with any xml parser; errors are fatal so they don't creep up over time.
+  machine readable with any xml parser;
+  errors are immediately denounced by the browser, so they don't creep up over time.
 - **[Mobile-friendly](https://www.google.com/webmasters/tools/mobile-friendly/?url=http://waldyrious.github.io)**
 
 
