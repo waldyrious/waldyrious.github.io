@@ -138,20 +138,20 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	padding-left: 0;
 }
 #cv h2#publications+ul:after {
-	content: "(J)ournal article; (C)onference article; (P)oster; (T)hesis";
+	content: "[Jr]: Journal article; [Cf]: Conference article; [Ps]: Poster; [Th]: Thesis";
 	font-size: 80%;
 	display: block;
 	text-align: right;
 	font-family: 'Playfair Display', serif;
 	color: #999;
 }
-#cv h3.pub-journal:after { content: " (J)"; }
+#cv h3.pub-journal:after { content: " [Jr]";  }
 
-#cv h3.pub-conf:after    { content: " (C)"; }
+#cv h3.pub-conf:after    { content: " [Cf]"; }
 
-#cv h3.pub-poster:after  { content: " (P)"; }
+#cv h3.pub-poster:after  { content: " [Ps]"; }
 
-#cv h3.pub-thesis:after  { content: " (T)"; }
+#cv h3.pub-thesis:after  { content: " [Th]"; }
 
 #cv h3[class^="pub-"]:after {
 	color: #999;
@@ -195,7 +195,7 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	}
 }
 @media print {
-	#cv { font-size: 80%; }
+	#cv { font-size: 75%; }
 	#cv > div.container { margin-top: 0; padding-top: 0; }
 	#cv ul { padding-left: 0.5rem; }
 	#cv h2 { background-color: #eee; padding-left: 0.5rem; }
