@@ -1,8 +1,11 @@
-﻿/*******************************************************************************
+﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300,700,300italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+
+/*******************************************************************************
  * Site-wide styles
  */
 
-body { font-family: 'Roboto', sans; font-weight: 300; color: #333; }
+body { font-family: 'Roboto', sans-serif; font-weight: 300; color: #333; }
 
 p { line-height: 1.5em; }
 
@@ -13,8 +16,8 @@ h2 { border-bottom: 1px solid #999; }
 h3 { margin-bottom: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Roboto Slab', serif;
-	font-weight: normal;
+	font-family: 'Playfair Display', serif;
+	color: #777;
 }
 
 .nobreak { white-space: nowrap; }
@@ -136,10 +139,11 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 }
 #cv h2#publications+ul:after {
 	content: "(J)ournal article; (C)onference article; (P)oster; (T)hesis";
-	font-style: italic;
 	font-size: 80%;
 	display: block;
 	text-align: right;
+	font-family: 'Playfair Display', serif;
+	color: #999;
 }
 #cv h3.pub-journal:after { content: " (J)"; }
 
@@ -149,11 +153,17 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 
 #cv h3.pub-thesis:after  { content: " (T)"; }
 
-#cv h3[class^="pub-"]:after { color: #999; font-style: italic; }
+#cv h3[class^="pub-"]:after {
+	color: #999;
+	font-size: 50%;
+	vertical-align: super;
+	font-weight: normal;
+}
 
 #cv ul:not([class]) li:before {
 	content: "⚫"; /* MEDIUM BLACK CIRCLE (U+26AB) */
 	/* Identical to fontello.css */
+	font-family: 'Apple Symbols', sans-serif;
 	color: #999;
 	display: inline-block;
 	width: 1em;
@@ -177,6 +187,7 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 		display: table-cell;
 		text-align: right;
 		width: 10em;
+		color: #777;
 	}
 	#cv span.value {
 		display: table-cell;
