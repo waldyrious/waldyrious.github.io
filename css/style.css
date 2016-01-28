@@ -277,8 +277,8 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	abbr[title] { border-bottom: none; }
 }
 
-@media screen {
-	.print-only { display: none; }
+@media not print {
+	.print-only { display: none !important; }
 }
 
 /*******************************************************************************
