@@ -42,7 +42,7 @@ Available at: http://waldirpimenta.com | http://waldyrious.net | http://waldyrio
     - Since this will provide dynamic content, have the link be added dynamically to the navbar
 - [ ] blog
     - Need to think what platform to use.
-      Something simple, with RSS/Atom and Discus comments
+      Something simple, with RSS/Atom and Disqus comments
 - [x] cv
 - [x] timeline
 - [x] contact
