@@ -22,6 +22,8 @@ iframe#nav {
 	border-bottom: 4px solid YellowGreen; /* alternatives: DarkTurquoise, OrangeRed */
 }
 
+body#nav { padding: 0; } 
+
 .container { margin-top: 3em; } /* to make room for the navbar */
 
 .charcoal, iframe#nav { background: #333; }
