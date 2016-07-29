@@ -1,32 +1,12 @@
-﻿@import url(https://fonts.googleapis.com/css?family=Roboto:300,700,300italic&subset=latin,latin-ext);
-@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700);
+@import url(http://rawgit.com/waldyrious/default.css/master/default.css);
 
 /*******************************************************************************
  * Site-wide styles
  */
 
-body { font-family: 'Roboto', sans-serif; font-weight: 300; color: #333; }
-
-p { line-height: 1.5em; }
-
-h1 { text-align: center; }
-
-h2 { border-bottom: 1px solid #999; }
-
-h3 { margin-bottom: 0; }
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Playfair Display', serif;
-	color: #777;
-}
-
 .nobreak { white-space: nowrap; }
 
 ul.plain { list-style: none; }
-
-a { color: DodgerBlue; }
-
-a:visited { color: DarkSlateBlue; }
 
 html#iframe-noscroll { overflow-y: hidden; }
 
@@ -37,10 +17,12 @@ iframe { width: 100%; border: 0px none transparent; display: block; }
  */
 
 iframe#nav {
-	position: fixed; top: 0;
+	position: fixed; top: 0; left: 0;
 	height: 3em; box-sizing: content-box;
-	border-bottom: 4px solid YellowGreen; /* alt: DarkTurquoise, OrangeRed */
+	border-bottom: 4px solid YellowGreen; /* alternatives: DarkTurquoise, OrangeRed */
 }
+
+.container { margin-top: 3em; } /* to make room for the navbar */
 
 .charcoal, iframe#nav { background: #333; }
 
@@ -196,7 +178,7 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 }
 @media print {
 	#cv { font-size: 75%; }
-	#cv > div.container { margin-top: 0; padding-top: 0; }
+	#cv > div.container { margin-top: 0; }
 	#cv ul { padding-left: 0.5rem; }
 	#cv h2 { background-color: #eee; padding-left: 0.5rem; }
 	/* For Firefox */
@@ -280,30 +262,3 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 @media not print {
 	.print-only { display: none !important; }
 }
-
-/*******************************************************************************
- * Fluid layout
- */
-
-/* aekaplan/grid */
-
-.container, footer { /* step 4 */
-	margin: 0 auto;
-	max-width: 960px;
-	width: 90%;
-}
-
-.container { /* custom tweaks */
-	margin-top: 3em; /* to make room for the navbar */
-	padding-top: 1em; /* custom tweak: breathing room */
-}
-
-*, *:before, *:after { box-sizing: border-box; } /* step 3 */
-
-html { font-size: 100%; }                               /* Small screens (default) */
-@media (min-width: 40rem) { html { font-size: 112%; } } /* Medium screens (640px) */
-@media (min-width: 64rem) { html { font-size: 120%; } } /* Large screens (1024px) */ 
-
-/* mrmrs/fluidity */
-
-img, canvas, iframe, video, svg, select, textarea { max-width: 100%; }
