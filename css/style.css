@@ -58,9 +58,9 @@ nav a#homelink {
  * Footer styles
  */
 
-iframe#footer { height: 6em; }
+iframe#footer { height: 6em; font-size: 100%;}
 
-footer { text-align: center; font-size: 90%; font-family: sans-serif; font-style: italic; }
+footer { text-align: center; font-size: 90%; font-family: sans-serif; }
 
 hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 
