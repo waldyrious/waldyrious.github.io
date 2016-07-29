@@ -34,6 +34,7 @@ nav {
 	white-space: nowrap;
 	text-align: right;
 	line-height: 3em;
+	font-family: sans-serif;
 }
 
 nav>a { color: white; text-decoration: none; }
@@ -59,7 +60,7 @@ nav a#homelink {
 
 iframe#footer { height: 6em; }
 
-footer { text-align: center; font-size: 90%; font-style: italic; }
+footer { text-align: center; font-size: 90%; font-family: sans-serif; font-style: italic; }
 
 hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 
