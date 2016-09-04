@@ -37,17 +37,17 @@ nav {
 	font-family: sans-serif;
 }
 
-nav>a { color: white; text-decoration: none; }
+#nav a { color: white; text-decoration: none; }
 
-nav>a:visited { color: silver; }
+#nav a:visited { color: silver; }
 
-nav>a#homelink:visited { color: white; }
+#nav a#homelink:visited { color: white; }
 
-nav>a:hover { text-decoration: underline; }
+#nav a:hover { text-decoration: underline; }
 
-nav>a#homelink:hover { text-decoration: none; }
+#nav a#homelink:hover { text-decoration: none; }
 
-nav a#homelink {
+#nav a#homelink {
 	font-family: 'Fredericka the Great', serif;
 	font-size: 200%;
 	float: left;
