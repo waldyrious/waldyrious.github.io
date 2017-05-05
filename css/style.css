@@ -5,6 +5,8 @@
  * Site-wide styles
  */
 
+h1 { text-align: center; }
+
 .nobreak { white-space: nowrap; }
 
 ul.plain { list-style: none; }
@@ -188,10 +190,12 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	}
 }
 @media print {
+	#cv { max-width: initial; }
 	#cv { font-size: 75%; }
 	#cv > div.container { margin-top: 0; }
 	#cv ul { padding-left: 0.5rem; }
-	#cv h2 { background-color: #eee; padding-left: 0.5rem; }
+	#cv h2 { background-color: #eee; padding-left: 0.5rem; color: #333; }
+	#cv a:visited { color: inherit }
 	/* For Firefox */
 	#cv ul.table { display: block; }
 	#cv ul.table > li { display: list-item; }
