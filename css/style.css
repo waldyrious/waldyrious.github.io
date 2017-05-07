@@ -196,7 +196,6 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	#cv ul { padding-left: 0.5rem; }
 	#cv h2 { background-color: #eee; padding-left: 0.5rem; color: #333; }
 	#cv h2, #cv h3, h2+ul { margin-top: 0.2em; margin-bottom: 0.2em; }
-	#cv  {margin-top:0.1; margin-bottom: 0.1;}
 	#cv a:visited { color: inherit }
 	#cv abbr { text-decoration: none; }
 	/* For Firefox */
