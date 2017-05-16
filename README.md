@@ -12,7 +12,8 @@ Available at: http://waldirpimenta.com | http://waldyrious.net | http://waldyrio
 - **[DRY code](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself)**:
   common elements (navigation menu and footer) are defined once and instantiated multiple times
     - [Declarative](http://tutorials.jenkov.com/angularjs/critique.html#the-declarative-imperative-paradigm-mismatch)
-      (static, javascript-free) inclusion of common header and footer through seamless iframes
+      (static, javascript-free) [inclusion](https://www.html5rocks.com/en/tutorials/webcomponents/imports/)
+      of common header and footer through seamless iframes
     - Declarative inclusion of multiple resources (CSS/JS)
       using an [intermediate document](resources.html)
       through [HTML imports](http://webcomponents.org/articles/introduction-to-html-imports/#using-html-imports)
