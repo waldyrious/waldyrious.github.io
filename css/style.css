@@ -23,13 +23,12 @@ iframe#nav {
 	position: fixed; top: 0; left: 0;
 	height: 3em; box-sizing: content-box;
 	border-bottom: 4px solid YellowGreen; /* alternatives: DarkTurquoise, OrangeRed */
+	background: #333;
 }
 
 body#nav { padding: 0; } 
 
 .container { margin-top: 3em; } /* to make room for the navbar */
-
-.charcoal, iframe#nav { background: #333; }
 
 nav {
 	color: grey;
