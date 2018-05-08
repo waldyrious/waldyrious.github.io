@@ -5,6 +5,8 @@
  * Site-wide styles
  */
 
+body { font-family: 'Linux Libertine', 'Linux Libertine O', 'Linux Libertine G', var(--serif); }
+
 h1 { text-align: center; }
 
 .nobreak { white-space: nowrap; }
