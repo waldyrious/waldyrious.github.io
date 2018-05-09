@@ -133,27 +133,19 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 #cv ul.plain ul {
 	padding-left: 0;
 }
-#cv h2#publications+ul:after {
-	content: "[Jr]: Journal article; [Cf]: Conference article; [Ps]: Poster; [Th]: Thesis";
-	font-size: 80%;
+
+/* Rulesets for the publications */
+#cv *[class^="pub-"] { font-style: italic; margin-bottom: 0.5em; }
+#cv .pub-journal:after { content: "[journal article]";  }
+#cv .pub-conf:after    { content: "[conference paper]"; }
+#cv .pub-poster:after  { content: "[conference poster]"; }
+#cv .pub-thesis:after  { content: "[academic thesis]"; }
+#cv *[class^="pub-"]:after {
+	color: #999;
+	font-style: normal;
 	display: block;
-	text-align: right;
-	font-family: 'Playfair Display', serif;
-	color: #999;
-}
-#cv h3.pub-journal:after { content: " [Jr]";  }
-
-#cv h3.pub-conf:after    { content: " [Cf]"; }
-
-#cv h3.pub-poster:after  { content: " [Ps]"; }
-
-#cv h3.pub-thesis:after  { content: " [Th]"; }
-
-#cv h3[class^="pub-"]:after {
-	color: #999;
-	font-size: 50%;
-	vertical-align: super;
-	font-weight: normal;
+	font-size: 75%;
+	line-height: 75%;
 }
 
 /* Rulesets for entries with an icon to the left */
