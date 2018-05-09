@@ -26,6 +26,7 @@ iframe#nav {
 	height: 3em; box-sizing: content-box;
 	border-bottom: 4px solid YellowGreen; /* alternatives: DarkTurquoise, OrangeRed */
 	background: #333;
+	z-index: 1;
 }
 
 body#nav { padding: 0; } 
@@ -123,7 +124,6 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 }
 
 /************* CV *************/
-
 #cv ul {
 	padding-left: 2em;
 }
@@ -156,6 +156,7 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	font-weight: normal;
 }
 
+/* Rulesets for entries with an icon to the left */
 #cv ul:not([class]) li:before {
 	content: "⚫"; /* MEDIUM BLACK CIRCLE (U+26AB) */
 	/* Identical to fontello.css */
@@ -165,9 +166,16 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	width: 1em;
 	text-align: center;
 }
+#cv [class^="icon-"], #cv ul:not([class]) li{
+	position: relative;
+	padding-left: 2.3em;
+}
 #cv [class^="icon-"]:before, #cv ul:not([class]) li:before {
 	margin-right: 0.5em;
 	margin-left: 0.5em;
+	position: absolute;
+	left: 0;
+	top: 0.2em;
 }
 #cv .icon-time { font-style: italic; }
 
