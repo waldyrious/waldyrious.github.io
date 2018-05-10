@@ -133,6 +133,9 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 #cv ul.plain ul {
 	padding-left: 0;
 }
+#cv h2 {
+	border-bottom: 2px solid #ccc;
+}
 
 /* Rulesets for the publications */
 #cv .pub-journal:after { content: "[journal article]";  }
@@ -202,7 +205,7 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	#cv > div.container { margin-top: 0; }
 	#cv ul { padding-left: 0.5rem; }
 	#cv h2, #cv h3, h2+ul { margin-top: 0.2em; margin-bottom: 0.2em; }
-	#cv h2 { background-color: #eee; color: #333; padding-left: 0.5rem; margin-top: 0.5em; }
+	#cv h2 { background: #ddd; color: #333; padding-left: 0.5rem; margin-top: 0.5em; border: none; }
 	#cv a:visited { color: inherit }
 	#cv abbr { text-decoration: none; }
 	/* For Firefox */
