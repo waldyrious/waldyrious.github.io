@@ -167,8 +167,8 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	margin-left: 0.5em;
 	position: absolute;
 	left: 0;
-	top: 0.2em;
 }
+#cv [class^="icon-"]:before { top: 0.2em; }
 #cv .icon-time { font-style: italic; }
 
 /* Use a table-like display if the screen is large enough */
