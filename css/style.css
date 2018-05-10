@@ -26,6 +26,7 @@ iframe#nav {
 	height: 3em; box-sizing: content-box;
 	border-bottom: 4px solid YellowGreen; /* alternatives: DarkTurquoise, OrangeRed */
 	background: #333;
+	z-index: 1;
 }
 
 body#nav { padding: 0; } 
@@ -123,7 +124,6 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 }
 
 /************* CV *************/
-
 #cv ul {
 	padding-left: 2em;
 }
@@ -133,29 +133,31 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 #cv ul.plain ul {
 	padding-left: 0;
 }
-#cv h2#publications+ul:after {
-	content: "[Jr]: Journal article; [Cf]: Conference article; [Ps]: Poster; [Th]: Thesis";
-	font-size: 80%;
-	display: block;
-	text-align: right;
-	font-family: 'Playfair Display', serif;
-	color: #999;
+#cv h2 {
+	border-bottom: 2px solid #ccc;
 }
-#cv h3.pub-journal:after { content: " [Jr]";  }
 
-#cv h3.pub-conf:after    { content: " [Cf]"; }
-
-#cv h3.pub-poster:after  { content: " [Ps]"; }
-
-#cv h3.pub-thesis:after  { content: " [Th]"; }
-
-#cv h3[class^="pub-"]:after {
+/* Rulesets for the publications */
+#cv .pub-journal:after { content: "[journal article]";  }
+#cv .pub-conf:after    { content: "[conference paper]"; }
+#cv .pub-poster:after  { content: "[conference poster]"; }
+#cv .pub-thesis:after  { content: "[academic thesis]"; }
+#cv *[class^="pub-"] {
+	font-style: italic;
+	font-size: 100%;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+#cv *[class^="pub-"]:after {
 	color: #999;
-	font-size: 50%;
-	vertical-align: super;
+	font-style: normal;
+	font-size: 75%;
+	line-height: 75%;
 	font-weight: normal;
+	display: block;
 }
 
+/* Rulesets for entries with an icon to the left */
 #cv ul:not([class]) li:before {
 	content: "⚫"; /* MEDIUM BLACK CIRCLE (U+26AB) */
 	/* Identical to fontello.css */
@@ -165,10 +167,17 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	width: 1em;
 	text-align: center;
 }
+#cv [class^="icon-"], #cv ul:not([class]) li{
+	position: relative;
+	padding-left: 2.3em;
+}
 #cv [class^="icon-"]:before, #cv ul:not([class]) li:before {
 	margin-right: 0.5em;
 	margin-left: 0.5em;
+	position: absolute;
+	left: 0;
 }
+#cv [class^="icon-"]:before { top: 0.2em; }
 #cv .icon-time { font-style: italic; }
 
 /* Use a table-like display if the screen is large enough */
@@ -196,13 +205,15 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	#cv > div.container { margin-top: 0; }
 	#cv ul { padding-left: 0.5rem; }
 	#cv h2, #cv h3, h2+ul { margin-top: 0.2em; margin-bottom: 0.2em; }
-	#cv h2 { background-color: #eee; color: #333; padding-left: 0.5rem; margin-top: 0.5em; }
+	#cv h2 { background: #ddd; color: #333; padding-left: 0.5rem; margin-top: 0.5em; border: none; }
 	#cv a:visited { color: inherit }
 	#cv abbr { text-decoration: none; }
 	/* For Firefox */
 	#cv ul.table { display: block; }
 	#cv ul.table > li { display: list-item; }
 	#cv ul.table span.field, #cv ul.table span.value { display: inline; padding: 0; }
+	#cv *[class^="pub-"]:after { display: initial; margin-left: 0.5em; }
+	#cv *[class^="pub-"] { margin: 0.1em auto; }
 }
 
 /************* BIO ************/
