@@ -146,8 +146,10 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	font-style: italic;
 	font-size: 100%;
 	font-weight: bold;
-	margin-bottom: 0.5em;
+	display: inline-block;
+	margin: 0.5em auto;
 }
+#cv li:first-child > *[class^="pub-"] { margin-top: 0; }
 #cv *[class^="pub-"]:after {
 	color: #999;
 	font-style: normal;
