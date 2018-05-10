@@ -135,17 +135,23 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 }
 
 /* Rulesets for the publications */
-#cv *[class^="pub-"] { font-style: italic; margin-bottom: 0.5em; }
 #cv .pub-journal:after { content: "[journal article]";  }
 #cv .pub-conf:after    { content: "[conference paper]"; }
 #cv .pub-poster:after  { content: "[conference poster]"; }
 #cv .pub-thesis:after  { content: "[academic thesis]"; }
+#cv *[class^="pub-"] {
+	font-style: italic;
+	font-size: 100%;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
 #cv *[class^="pub-"]:after {
 	color: #999;
 	font-style: normal;
-	display: block;
 	font-size: 75%;
 	line-height: 75%;
+	font-weight: normal;
+	display: block;
 }
 
 /* Rulesets for entries with an icon to the left */
@@ -203,6 +209,8 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	#cv ul.table { display: block; }
 	#cv ul.table > li { display: list-item; }
 	#cv ul.table span.field, #cv ul.table span.value { display: inline; padding: 0; }
+	#cv *[class^="pub-"]:after { display: initial; margin-left: 0.5em; }
+	#cv *[class^="pub-"] { margin: 0.1em auto; }
 }
 
 /************* BIO ************/
