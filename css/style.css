@@ -13,6 +13,8 @@ h1 { text-align: center; }
 
 ul.plain { list-style: none; }
 
+a { color: RoyalBlue; }
+
 html#iframe-noscroll { overflow-y: hidden; }
 
 iframe { width: 100%; border: 0px none transparent; display: block; }
@@ -208,7 +210,7 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	#cv ul { padding-left: 0.5rem; }
 	#cv h2, #cv h3, h2+ul { margin-top: 0.2em; margin-bottom: 0.2em; }
 	#cv h2 { background: #ddd; color: #333; padding-left: 0.5rem; margin-top: 0.5em; border: none; }
-	#cv a:visited { color: inherit }
+	#cv a:visited { color: RoyalBlue; } /* Override visited link color */
 	#cv abbr { text-decoration: none; }
 	/* For Firefox */
 	#cv ul.table { display: block; }
