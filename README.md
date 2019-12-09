@@ -1,9 +1,16 @@
 waldyrious.github.io
 ====================
 
-I decided to host my website in a version-controlled system. What better option than github pages? :D
+This repository holds the source code of my website.  
 
-Available at: http://waldirpimenta.com | http://waldyrious.net | http://waldyrious.github.io
+Available at: http://waldirpimenta.com | https://waldyrious.net | https://waldyrious.github.io
+
+![GitHub followers](https://img.shields.io/github/followers/waldyrious?label=GitHub&style=social)
+![Twitter followers](https://img.shields.io/twitter/follow/waldyrious?label=Twitter&style=social)
+![Keybase followers](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fkeybase.io%2F_%2Fapi%2F1.0%2Fuser%2Fcard.json%3Fusername%3Dwaldyrious&query=%24.follow_summary.followers&label=Keybase&logo=keybase&style=social)
+![Reddit link karma](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.reddit.com%2Fuser%2Fwaldyrious%2Fabout&query=%24.data.link_karma&label=reddit&logo=reddit&style=social)
+![Wikimedia edits](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fwww.mediawiki.org%2Fw%2Fapi.php%3Faction%3Dquery%26meta%3Dglobaluserinfo%26guiuser%3DWaldyrious%26guiprop%3Deditcount%26format%3Djson&query=%24.query.globaluserinfo.editcount&label=Wikimedia&logo=wikipedia&style=social)
+![StackOverflow reputation](https://img.shields.io/badge/dynamic/json?query=%24.items%5B0%5D.reputation&url=https%3A%2F%2Fapi.stackexchange.com%2F2.2%2Fusers%2F266309%3Fsite%3Dstackoverflow&logo=stackoverflow&label=StackOverflow&style=social&link=https%3A%2F%2Fstackoverflow.com%2Fusers%2F266309%2Fwaldyrious)
 
 ### Implementation notes
 
