@@ -1,11 +1,9 @@
-@import url(https://rawgit.com/jonathantneal/sanitize.css/master/sanitize.css);
-@import url(https://rawgit.com/waldyrious/downstyler/master/downstyler.css);
+@import url(https://raw.githack.com/jonathantneal/sanitize.css/master/sanitize.css);
+@import url(https://raw.githack.com/waldyrious/downstyler/master/downstyler.css);
 
 /*******************************************************************************
  * Site-wide styles
  */
-
-body { font-family: 'Linux Libertine', 'Linux Libertine O', 'Linux Libertine G', var(--serif); }
 
 h1 { text-align: center; }
 
