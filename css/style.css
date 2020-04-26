@@ -17,9 +17,7 @@ html#iframe-noscroll { overflow-y: hidden; }
 
 iframe { width: 100%; border: 0px none transparent; display: block; }
 
-/*******************************************************************************
- * Header styles
- */
+/* Header styles ------------------------------------------------------------ */
 
 iframe#nav {
 	position: fixed; top: 0; left: 0;
@@ -29,7 +27,7 @@ iframe#nav {
 	z-index: 1;
 }
 
-body#nav { padding: 0; } 
+body#nav { padding: 0; }
 
 .container { margin-top: 3em; } /* to make room for the navbar */
 
@@ -61,9 +59,7 @@ nav {
 	letter-spacing: 0.05em;
 }
 
-/*******************************************************************************
- * Footer styles
- */
+/* Footer styles ------------------------------------------------------------ */
 
 iframe#footer { height: 6em; }
 
@@ -79,7 +75,7 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
  * Page-specific styles
  */
 
-/************ HOME ************/
+/* Home --------------------------------------------------------------------- */
 #home #waldir-img {
 	border-radius: 50%;
 	display: block;
@@ -87,7 +83,7 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	width: 12em;
 }
 
-/*********** CONTACT **********/
+/* Contact ------------------------------------------------------------------ */
 #contact ul {
 	column-width: 10em;
 	-moz-column-width: 10em;
@@ -123,7 +119,7 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	background-image:url(http://www.google.com/s2/favicons?domain=xing.com);
 }
 
-/************* CV *************/
+/* CV ----------------------------------------------------------------------- */
 #cv ul {
 	padding-left: 2em;
 }
@@ -218,7 +214,7 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	#cv *[class^="pub-"] { margin: 0.1em auto; }
 }
 
-/************* BIO ************/
+/* Bio ---------------------------------------------------------------------- */
 #bio ul {
 	padding-left: 0;
 }
