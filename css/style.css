@@ -241,10 +241,6 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 #bio li.future {
 	background: LightGrey;
 }
-#bio li.dead {
-	background: Grey;
-	display: none;
-}
 #bio li > span {
 	position:absolute;
 	display: none;
