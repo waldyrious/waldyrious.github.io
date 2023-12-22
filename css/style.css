@@ -123,8 +123,11 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 #cv ul {
 	padding-left: 2em;
 }
-#cv ul {
+#cv ul:not(.bullets) {
 	list-style: none;
+}
+#cv ul.bullets {
+	margin-left: 1.5em;
 }
 #cv ul.plain ul {
 	padding-left: 0;
@@ -165,7 +168,7 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	width: 1em;
 	text-align: center;
 }
-#cv [class^="icon-"], #cv ul:not([class]) li{
+#cv [class^="icon-"], #cv ul:not([class]) li {
 	position: relative;
 	padding-left: 2.3em;
 }
@@ -198,20 +201,10 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	}
 }
 @media print {
-	#cv { max-width: initial; }
 	#cv { font-size: 75%; }
-	#cv > div.container { margin-top: 0; }
-	#cv ul { padding-left: 0.5rem; }
-	#cv h2, #cv h3, h2+ul { margin-top: 0.2em; margin-bottom: 0.2em; }
-	#cv h2 { background: #ddd; color: #333; padding-left: 0.5rem; margin-top: 0.5em; border: none; }
+	#cv h2#education { page-break-before: always; }
 	#cv a:visited { color: RoyalBlue; } /* Override visited link color */
-	#cv abbr { text-decoration: none; }
-	/* For Firefox */
-	#cv ul.table { display: block; }
-	#cv ul.table > li { display: list-item; }
-	#cv ul.table span.field, #cv ul.table span.value { display: inline; padding: 0; }
-	#cv *[class^="pub-"]:after { display: initial; margin-left: 0.5em; }
-	#cv *[class^="pub-"] { margin: 0.1em auto; }
+	#cv a, #cv abbr { text-decoration: none; }
 }
 
 /* Bio ---------------------------------------------------------------------- */
