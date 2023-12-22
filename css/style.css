@@ -79,39 +79,39 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	width: 200px;
 }
 
-/* Contact ------------------------------------------------------------------ */
-#contact ul {
+/* Profiles ----------------------------------------------------------------- */
+#profiles ul {
 	column-width: 10em;
 	-moz-column-width: 10em;
 	-webkit-column-width: 10em;
 }
-#contact ul > li > a[id] {
+#profiles ul > li > a[id] {
 	background-position: 0 center;
 	padding-left: 20px;
 	background-repeat: no-repeat;
 }
-#contact #academia-edu {
+#profiles #academia-edu {
 	background-image:url(http://www.google.com/s2/favicons?domain=academia.edu);
 }
-#contact #github {
+#profiles #github {
 	background-image:url(http://www.google.com/s2/favicons?domain=github.com);
 }
-#contact #google-scholar {
+#profiles #google-scholar {
 	background-image:url(http://www.google.com/s2/favicons?domain=scholar.google.com);
 }
-#contact #linkedin {
+#profiles #linkedin {
 	background-image:url(http://www.google.com/s2/favicons?domain=linkedin.com);
 }
-#contact a#mendeley {
+#profiles a#mendeley {
 	background-image:url(http://www.google.com/s2/favicons?domain=mendeley.com);
 }
-#contact #researchgate {
+#profiles #researchgate {
 	background-image:url(http://www.google.com/s2/favicons?domain=researchgate.com);
 }
-#contact #vizualize-me {
+#profiles #vizualize-me {
 	background-image:url(http://www.google.com/s2/favicons?domain=vizualize.me);
 }
-#contact #xing {
+#profiles #xing {
 	background-image:url(http://www.google.com/s2/favicons?domain=xing.com);
 }
 

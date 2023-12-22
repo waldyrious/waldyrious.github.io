@@ -53,7 +53,7 @@ Available at: http://waldirpimenta.com | https://waldyrious.net | https://waldyr
       Something simple, with RSS/Atom and Disqus comments
 - [x] cv
 - [x] timeline
-- [x] contact
+- [x] profiles
 
 
 ### License:
