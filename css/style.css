@@ -65,10 +65,6 @@ iframe#footer { height: 6em; }
 
 footer { text-align: center; font-size: 90%; font-family: sans-serif; }
 
-/* font size in iframe is already smaller due to the different viewport,
-   so let's override the 90% set above. */
-#footer-top + footer { font-size: 1rem; }
-
 hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 
 /*******************************************************************************

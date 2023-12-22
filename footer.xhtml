@@ -11,11 +11,9 @@
 	<hr id="footer-top"/>
 	<footer>
 		<span class="nobreak">
-			<a id="validate" href="http://validator.w3.org/check?uri=waldyrious.github.io">Valid</a>
-			<a href="http://www.w3.org/TR/html-polyglot/">polyglot xhtml5</a>.
-		</span>
-		<span class="nobreak">
-			<a id="mobile" href="https://search.google.com/test/mobile-friendly?url=waldyrious.github.io">Mobile-friendly</a>.
+			Website built by hand in <a href="https://html-first.com/">vanilla</a>
+			<a href="https://www.w3.org/TR/html-polyglot/#dfn-polyglot-markup">polyglot</a>
+			<a href="https://en.wikipedia.org/wiki/XHTML">XHTML</a>.
 		</span>
 		<span class="nobreak">
 			Source code <a id="src" href="https://github.com/waldyrious/waldyrious.github.io">on GitHub</a>.
@@ -28,9 +26,6 @@
 		if (window.parent.location.pathname !== "/") {
 			document.getElementById('validate').href =
 				'http://validator.w3.org/check?uri=' +
-				window.parent.location.href;
-			document.getElementById('mobile').href =
-				'https://search.google.com/search-console/mobile-friendly?url=' +
 				window.parent.location.href;
 			document.getElementById('src').href =
 				'https://github.com/waldyrious/waldyrious.github.io/blob/master' +
