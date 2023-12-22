@@ -85,35 +85,6 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 	-moz-column-width: 10em;
 	-webkit-column-width: 10em;
 }
-#profiles ul > li > a[id] {
-	background-position: 0 center;
-	padding-left: 20px;
-	background-repeat: no-repeat;
-}
-#profiles #academia-edu {
-	background-image:url(http://www.google.com/s2/favicons?domain=academia.edu);
-}
-#profiles #github {
-	background-image:url(http://www.google.com/s2/favicons?domain=github.com);
-}
-#profiles #google-scholar {
-	background-image:url(http://www.google.com/s2/favicons?domain=scholar.google.com);
-}
-#profiles #linkedin {
-	background-image:url(http://www.google.com/s2/favicons?domain=linkedin.com);
-}
-#profiles a#mendeley {
-	background-image:url(http://www.google.com/s2/favicons?domain=mendeley.com);
-}
-#profiles #researchgate {
-	background-image:url(http://www.google.com/s2/favicons?domain=researchgate.com);
-}
-#profiles #vizualize-me {
-	background-image:url(http://www.google.com/s2/favicons?domain=vizualize.me);
-}
-#profiles #xing {
-	background-image:url(http://www.google.com/s2/favicons?domain=xing.com);
-}
 
 /* CV ----------------------------------------------------------------------- */
 #cv ul {
