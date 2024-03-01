@@ -75,7 +75,7 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 #home #waldir-img {
 	border-radius: 50%;
 	display: block;
-	margin: 0 auto;
+	margin: 5em auto 0;
 	width: 200px;
 }
 
