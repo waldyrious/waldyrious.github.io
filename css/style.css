@@ -73,10 +73,10 @@ hr#footer-top { width: 33%; border: none; border-top: 1px solid silver; }
 
 /* Home --------------------------------------------------------------------- */
 #home #waldir-img {
-	border-radius: 50%;
+	border-radius: 25%;
 	display: block;
 	margin: 5em auto 0;
-	width: 200px;
+	width: 400px;
 }
 
 /* Profiles ----------------------------------------------------------------- */
