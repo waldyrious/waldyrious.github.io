@@ -1,0 +1,24 @@
+﻿@font-face {
+  font-family: 'Libertinus Serif';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Libertinus Serif'), url('../font/LibertinusSerif-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Libertinus Serif';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Libertinus Serif'), url('../font/LibertinusSerif-Italic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Libertinus Serif';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Libertinus Serif'), url('../font/LibertinusSerif-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Libertinus Serif';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Libertinus Serif'), url('../font/LibertinusSerif-BoldItalic.woff2') format('woff2');
+}
